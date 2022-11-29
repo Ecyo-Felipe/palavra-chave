@@ -472,6 +472,10 @@ p {
   .curriculo {
     margin-top: 1.5rem;
   }
+
+  .editTop {
+    padding-top: 0px;
+  }
   
 
  
