@@ -352,6 +352,10 @@ h1 {
     
 }
 
+.servicos p {
+  color: black;
+}
+
 #services h1{
     text-align: center;
     margin-bottom: .5rem;
