@@ -464,7 +464,15 @@ p {
 .logoImg {
 
   width: 50%;
+  position: relative;
+  left: -100px;
 
+}
+
+.navbar-toggler{
+  position: relative;
+  right: -80%;
+  bottom: 65px;
 }
 
 
