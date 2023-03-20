@@ -477,7 +477,6 @@ p {
 
 .title-image2{
   width: 80%;
-  margin-bottom: 100px;
   margin-bottom: 20px;
 }
   
@@ -500,6 +499,7 @@ p {
 
   .title-image{
     width: 105%;
+    margin-top: -50px;
     
   }
 
