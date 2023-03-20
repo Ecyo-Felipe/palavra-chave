@@ -314,11 +314,37 @@ h1 {
  
 }
 
+.meusCursos {
+  text-align: center;
+}
+
 .title-image {
 
     width: 100%;
     margin-top: -50px;
     
+}
+
+.title-image2{
+  width: 40%;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  
+}
+
+.displaTest {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+
+}
+
+.button2 {
+  text-align: center;
+}
+
+.buttonSize {
+  margin-top: -130px;
 }
 
 .neonText {
@@ -444,6 +470,11 @@ p {
 .navbar {
   padding: 0px 0px 2rem;
 }
+
+.title-image2{
+  width: 80%;
+  margin-bottom: 100px;
+}
   
  
 }
@@ -466,6 +497,8 @@ p {
     width: 105%;
     
   }
+
+  
 
 .logoImg {
 
