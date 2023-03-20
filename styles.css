@@ -315,28 +315,31 @@ h1 {
 }
 
 .meusCursos {
+  font-family: sans-serif;
   text-align: center;
 }
 
 .title-image {
 
     width: 100%;
-    margin-top: -50px;
     
 }
 
-.title-image2{
-  width: 40%;
-  margin-bottom: 100px;
-  border-radius: 10px;
-  
+
+#courses {
+  background-color: white;
+    text-align: center;
+    padding: 5% 15%;
+    position: relative;
+    top: px;
+    z-index: 1;
+
 }
 
-.displaTest {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
 
+.title-image2{
+  width: 50%;
+  
 }
 
 .button2 {
@@ -344,7 +347,7 @@ h1 {
 }
 
 .buttonSize {
-  margin-top: -130px;
+  margin-top: 20px;
 }
 
 .neonText {
@@ -366,12 +369,13 @@ h1 {
 
 
 #services{
-  background-color: white;
+  background-color: #f7dd00;
     text-align: center;
     padding: 5% 15%;
     position: relative;
     top: px;
     z-index: 1;
+    
 
     
     
@@ -438,7 +442,7 @@ p {
 
 #aboutMe  {
   padding: 5% 5%;
-  background-color: #f7dd00;
+  background-color: white;
   text-align: left;
   
 }
@@ -474,6 +478,7 @@ p {
 .title-image2{
   width: 80%;
   margin-bottom: 100px;
+  margin-bottom: 20px;
 }
   
  
@@ -544,6 +549,7 @@ p {
 #testemonials{
   padding: 7% 5%;
   text-align: center;
+  background-color: #f7dd00;
   
 }
 
