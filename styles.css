@@ -2,8 +2,6 @@
 
 #title {
     
-    
-    
     background: radial-gradient(#f7dd00,#aa9a09);
    
     
@@ -262,9 +260,9 @@ button:focus{
 
 /*creating animation effect*/
 .neonButton:hover {
-    color: rgb(12, 255, 4);
+    color: #c9f504;
     background: #020201;
-    box-shadow: 0 0 50px #04f52c;
+    box-shadow: 0 0 50px #c9f504;
 }
 
 .container-fluid {
@@ -318,8 +316,9 @@ h1 {
 
 .title-image {
 
-    width: 80%;
-
+    width: 100%;
+    margin-top: -50px;
+    
 }
 
 .neonText {
@@ -442,6 +441,9 @@ p {
     
 }
 
+.navbar {
+  padding: 0px 0px 2rem;
+}
   
  
 }
