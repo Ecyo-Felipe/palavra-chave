@@ -283,6 +283,33 @@ h1 {
 
 /* Navigation Bar */
 
+.whatsapp-button-container {
+  z-index: 3;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  font-size: 50px;
+   
+}
+
+.whatsapp-button-container:hover {
+  color:rgb(200, 211, 43)
+}
+
+.circle{
+  z-index: 2;
+  position: fixed;
+  bottom: 20px;
+  right: 8px;
+  bottom: 20px;
+  background-color: green;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 .navbar {
     padding: 0px 0px 4rem;
 }
