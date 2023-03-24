@@ -328,6 +328,10 @@ h1 {
     
 }
 
+.navbar-collapse {
+  margin-bottom: 15px;
+}
+
 /* Title Image */
 
 .editTop {
