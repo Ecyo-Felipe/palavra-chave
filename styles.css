@@ -329,7 +329,7 @@ h1 {
 }
 
 .navbar-collapse {
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 /* Title Image */
@@ -474,7 +474,7 @@ p {
 #aboutMe  {
   padding: 5% 5%;
   background-color: white;
-  text-align: left;
+  text-align: center;
   
 }
 
@@ -485,6 +485,8 @@ p {
   }
   .blackp {
     text-align: left;
+    font-size: 1.6rem;
+    
   }
 
   #title{
@@ -502,9 +504,6 @@ p {
     
 }
 
-.navbar {
-  padding: 0px 0px 0rem;
-}
 
 .title-image2{
   width: 80%;
@@ -521,6 +520,7 @@ p {
   }
   .blackp {
     text-align: left;
+    font-size: 1.6rem;
   }
 
   #title{
@@ -564,13 +564,19 @@ p {
  
 }
 
+@media(max-width: 250px){
+  .navbar{
+    margin-left: 50px;
+  }
+}
+
 
 .imgAbt{
   width: 90%;
 }
 .blackp{
   color: black;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
  
 }
 
