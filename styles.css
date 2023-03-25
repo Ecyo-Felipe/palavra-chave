@@ -329,7 +329,7 @@ h1 {
 }
 
 .navbar-collapse {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 /* Title Image */
@@ -500,14 +500,16 @@ p {
     line-height: 1.4;
     font-size: 2rem;
     
-
-    
-}
+  }
 
 
 .title-image2{
   width: 80%;
   margin-bottom: 20px;
+}
+
+.navbar-collapse {
+  margin-bottom: 1px;
 }
   
  
@@ -540,7 +542,7 @@ p {
 
   width: 50%;
   position: relative;
-  left: -100px;
+  left: -120px;
 
 }
 
@@ -564,9 +566,22 @@ p {
  
 }
 
-@media(max-width: 250px){
-  .navbar{
-    margin-left: 50px;
+@media(max-width: 450px){
+
+  .logoImg {
+    width: 50%;
+    position: relative;
+    left: -90px;
+  
+  }
+}
+
+@media(max-width: 360px){
+  .logoImg {
+    width: 50%;
+    position: relative;
+    left: -70px;
+  
   }
 }
 
@@ -577,6 +592,7 @@ p {
 .blackp{
   color: black;
   font-size: 1.2rem;
+  text-align: left;
  
 }
 
