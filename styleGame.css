@@ -645,12 +645,19 @@ p {
   color: black;
 }
 
-.game {
+.iframe-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+    padding-bottom: 120px;
+  }
   
-  height: 650px;
-  align-items: center;
-  text-align: center;
-  
-  
-}
+  .iframe-container iframe {
+    max-width: 100%;
+  }
+
+
+
 
