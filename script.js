@@ -52,11 +52,7 @@ function checkPassword() {
 
     window.location.href = '../gameScreen.html';
   } else {
-    var errorMessage = document.createElement('p');
-    errorMessage.textContent = 'Senha incorreta. Tente novamente.';
-    errorMessage.classList.add('error-message');
-    var loginSection = document.querySelector('.login');
-    loginSection.appendChild(errorMessage);
+    alert('Senha incorreta, tente novamente.')
   }
 }
 
