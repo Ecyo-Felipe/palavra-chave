@@ -341,7 +341,6 @@ h1 {
 #title {
   text-align: left;
   
-  margin-bottom: -100px;
  
 }
 
@@ -412,10 +411,6 @@ h1 {
     
 }
 
-.servicos p {
-  color: black;
-}
-
 #services h1{
     text-align: center;
     margin-bottom: .5rem;
@@ -447,8 +442,10 @@ h3 {
 }
 
 p {
-    color: #8f8f8f;
+    color: #686868;
     font-family: "Monteserrat";
+    font-weight: 600;
+    font-size: large;
   }
 
   .icon {
@@ -491,7 +488,7 @@ p {
 
   #title{
     text-align: left;
-    margin-bottom: -100px;
+    
   }
 
   h1 {
@@ -663,3 +660,100 @@ p {
   }
 
 
+  .contentPage img {
+    max-width: 55%; /* Ajuste o valor de acordo com o tamanho desejado */
+    max-height: 55%; /* Ajuste o valor de acordo com o tamanho desejado */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -60px;
+    
+  }
+  
+  .texts {
+    text-align: center;
+  }
+
+  .imageGames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -10%;
+    margin-bottom: -5%;
+  }
+
+  .imageGames img {
+    max-width: 40%; /* Ajuste o valor de acordo com o tamanho desejado */
+    margin: 20px; /* Espaçamento entre as imagens */
+  }
+
+  @media(max-width: 588px) {
+    .imageGames img {
+        max-width: 100%; /* Ajuste o valor de acordo com o tamanho desejado */
+        margin: 20px; /* Espaçamento entre as imagens */
+      }
+  }
+  
+  .video-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -5% 0;
+  }
+ 
+  h1 {
+    font-size: 48px; /* Tamanho da fonte */
+    color: #fff; /* Cor do texto */
+    text-shadow: 0 0 10px #5f5959, 0 0 20px #5f5959, 0 0 30px #5f5959, 0 0 40px #fbff11, 0 0 70px #fbff11, 0 0 80px #fbff11, 0 0 100px #fbff11, 0 0 150px #fbff11; /* Sombra do texto */
+    
+    padding: 20px; /* Espaçamento interno */
+    margin: 0; /* Margem */
+  }
+  
+ .list{
+    margin: 5% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+ }
+
+ .list1 {
+    text-align: left;
+ }
+ 
+ .list2 {
+    text-align: left;
+ }
+
+ @media(max-width: 1051px) {
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+
+ }
+
+ .link-destaque {
+    color: #FF0000; /* Cor do link */
+    font-weight: bold; /* Estilo da fonte */
+    text-shadow: 0 0 5px #FF0000, 0 0 20px #FF0000; /* Sombra do texto */
+    animation: neon-glow 1s ease-in-out infinite alternate; /* Animação do brilho */
+  
+    /* Outros estilos desejados */
+    font-size: 2rem;
+  }
+
+
+
+  .pDestaque {
+    font-size: 2rem;
+  }
+  
+  /* @media(min-width: 992px) {
+    #title {
+        margin-bottom: ;
+    }
+
+ } */

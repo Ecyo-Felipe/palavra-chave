@@ -145,7 +145,7 @@ main {
 }
 
 .input--checkbox:checked {
-  background-color: var(--red);
+  background-color: #f7dd00;
 }
 
 .input--checkbox:checked::after {
@@ -166,7 +166,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--red);
+  background-color: #f7dd00;
   border-radius: 20px;
   border: none;
   cursor: pointer;
