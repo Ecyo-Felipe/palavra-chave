@@ -1854,5 +1854,24 @@ responsive
   margin-top: 20px;
 }
 
+.teste {
+  background-image: url("/img/site4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.teste1 {
+  background-image: url("/img/jogosFolhasCadaMao.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+#bg-video img {
+  width: 100%;
+  height: auto;
+}
 
 
