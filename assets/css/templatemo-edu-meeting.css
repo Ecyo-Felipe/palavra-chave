@@ -1857,7 +1857,7 @@ responsive
 }
 
 .teste {
-  background-image: url("/img/site1.jpg");
+  background-image: url("/assets/images/myBackground.png"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1887,3 +1887,24 @@ responsive
   }
 }
 
+.whatsapp-button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 4;
+}
+
+.whatsapp-button:hover {
+  background-color: darkgreen;
+}

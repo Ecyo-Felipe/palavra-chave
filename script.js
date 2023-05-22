@@ -41,8 +41,14 @@ function fazerLogin() {
     localStorage.setItem('senhaUsuario', senha);
     // Redirecionar para outra página
     window.location.href = 'jogos.html';
+  } else if (senha === 'kit1pc2023' && !manterLogin) {
+    // Limpar a senha do usuário do localStorage (caso exista)
+    localStorage.removeItem('senhaUsuario');
+    // Redirecionar para outra página
+    window.location.href = 'jogos.html';
   }
 }
+
 
 // Função para ocultar a extensão .html nas páginas
 function ocultarExtensaoHTML() {
