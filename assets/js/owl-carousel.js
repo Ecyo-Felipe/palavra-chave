@@ -2717,9 +2717,18 @@
 	 * Default options.
 	 * @public
 	 */
+
+	// --------------------------------------------------------------------- FUNCAO DO CAROUSEL
+	function getAutoPlay() {
+		if (window.innerWidth < 992) {
+		  return 4000;
+		} else {
+		  return 50000;
+		}
+	  }
 	Autoplay.Defaults = {
 		autoplay: false,
-		autoplayTimeout: 5000,
+		autoplayTimeout: getAutoPlay(),
 		autoplayHoverPause: false,
 		autoplaySpeed: false
 	};

@@ -781,7 +781,7 @@ services
 */
 
 .services {
-  margin-top: -135px;
+  margin-top: -150px;
   position: absolute;
   width: 100%;
 }
@@ -795,6 +795,8 @@ services
   text-align: center;
   color: #fff;
   padding: 40px;
+  margin-top: 4%;
+  height: 430px;
 }
 
 .services .item .icon {
@@ -823,14 +825,14 @@ services
   transform: translateY(-25px);
 }
     
-.services .owl-nav .owl-prev{
+/* .services .owl-nav .owl-prev{
   margin-right: 10px;
   outline: none;
   position: absolute;
   left: -80px;
-}
+} */
 
-.services .owl-nav .owl-prev span,
+/* .services .owl-nav .owl-prev span,
 .services .owl-nav .owl-next span {
   opacity: 0;
 }
@@ -847,14 +849,14 @@ services
   height: 50px;
   border-radius: 50%;
   line-height: 50px;
-}
+} */
 
-.services .owl-nav .owl-prev {
+/* .services .owl-nav .owl-prev {
   opacity: 1;
   transition: all .5s;
-}
+} */
 
-.services .owl-nav .owl-prev:hover {
+/* .services .owl-nav .owl-prev:hover {
   opacity: 0.9;
 }
 
@@ -886,7 +888,7 @@ services
   height: 50px;
   border-radius: 50%;
   line-height: 50px;
-}
+} */
 
 
 /*
@@ -901,7 +903,7 @@ section.upcoming-meetings {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 230px;
+  padding-top: 400px;
   padding-bottom: 110px;
 }
 
@@ -914,6 +916,7 @@ section.upcoming-meetings .categories {
   border-radius: 20px;
   padding: 40px;
   margin-right: 45px;
+  
 }
 
 section.upcoming-meetings .categories h4 {
@@ -1022,7 +1025,6 @@ section.upcoming-meetings .categories .main-button-red a {
 }
 
 .meeting-item .down-content p {
-  margin-left: 50px;
   color: #1f272b;
   font-size: 14px;
 }
@@ -1268,7 +1270,7 @@ our facts
 */
 
 section.our-facts {
-  background-image: url(../images/facts-bg.jpg);
+  background-image: url(../images/facts-bg1.png);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1795,7 +1797,7 @@ responsive
   }
 
   section.upcoming-meetings {
-    padding-top: 400px;
+    padding-top: 650px;
   }
 
   section.upcoming-meetings .categories {
@@ -1874,4 +1876,14 @@ responsive
   height: auto;
 }
 
+.editVideo {
+  margin-bottom: 3%;
+}
+
+@media (max-width: 992px){
+
+  iframe {
+    width: 100%;
+  }
+}
 
