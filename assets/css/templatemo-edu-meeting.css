@@ -568,6 +568,7 @@ header
   color: #f5a425;
 }
 
+
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 7px;
@@ -579,6 +580,10 @@ header
 }
 
 @media (max-width: 767px) {
+  .logo img {
+    width: 30%;
+  }
+
   .header-area .main-nav .logo {
     color: #1e1e1e;
   }
@@ -595,7 +600,7 @@ header
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
-    text-align: center;
+    text-align: left;
   }
   .header-area .container {
     padding: 0px;
@@ -1864,7 +1869,7 @@ responsive
 }
 
 .teste1 {
-  background-image: url("/img/jogosFolhasCadaMao.jpg");
+  background-image: url("/img/fotoCortada.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
