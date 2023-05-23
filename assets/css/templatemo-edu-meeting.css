@@ -602,6 +602,12 @@ header
     box-shadow: none;
     text-align: left;
   }
+
+  .header-area ul {
+    
+    text-align: center;
+  }
+
   .header-area .container {
     padding: 0px;
   }
