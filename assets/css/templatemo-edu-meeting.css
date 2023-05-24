@@ -926,7 +926,6 @@ section.upcoming-meetings .categories {
   background-color: #fff;
   border-radius: 20px;
   padding: 40px;
-  margin-right: 45px;
   
 }
 
@@ -1918,4 +1917,30 @@ responsive
 
 .whatsapp-button:hover {
   background-color: darkgreen;
+}
+
+
+.coluna1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.coluna2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.colunaGeral {
+  display: flex;
+  gap: 20px;
+}
+
+
+@media (max-width: 767px){
+  .colunaGeral {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
 }

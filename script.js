@@ -46,6 +46,9 @@ function fazerLogin() {
     localStorage.removeItem('senhaUsuario');
     // Redirecionar para outra página
     window.location.href = 'jogos.html';
+  } else if (senha === 'kit2pc2023') {
+    // Redirecionar para outra página
+    window.location.href = 'jogoskit2.html';
   }
 }
 
