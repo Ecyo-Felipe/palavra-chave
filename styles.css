@@ -242,6 +242,19 @@ p {
   
 }
 
+
+  #aboutMe img {
+    width: 400px;
+    height: 400px;
+  }
+  @media(max-width: 1305px){
+    #aboutMe img {
+      width: 300px;
+      height: 300px;
+    }
+  }
+
+
 @media(max-width: 1114px){
   #aboutMe{
   text-align: center;
@@ -350,9 +363,6 @@ p {
 }
 
 
-.imgAbt{
-  width: 90%;
-}
 .blackp{
   color: black;
   font-size: 1.2rem;
