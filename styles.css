@@ -207,12 +207,13 @@ h3 {
 }
 
 .feature-title {
+  font-family:"Poppins", "sans-serif";
     font-size: 1.5rem;;
 }
 
 p {
     color: #8f8f8f;
-    font-family: "Poppins";
+    font-family:"Poppins", "sans-serif";
   }
 
   .icon {
@@ -373,10 +374,11 @@ p {
 
 /* Testimonial section */
 
-#testemonials{
+#cursos{
   padding: 7% 5%;
   text-align: center;
   background-color: #f7dd00;
+  position: relative;
   
 }
 

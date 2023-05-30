@@ -183,12 +183,13 @@ h3 {
 }
 
 .feature-title {
+  font-family: 'Poppins', 'sans serif';
     font-size: 1.5rem;;
 }
 
 p {
     color: #8f8f8f;
-    font-family: "Monteserrat";
+    font-family:"Poppins", "sans-serif";
   }
 
   .icon {

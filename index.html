@@ -20,7 +20,14 @@
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
   
 
-  <!-- CSS Stylesheets -->
+  <!-- Vendor CSS Files -->
+  <link href="vendor2/aos/aos.css" rel="stylesheet">
+  <link href="vendor2/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor2/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor2/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor2/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor2/remixicon/remixicon.css" rel="stylesheet">
+  <link href="vendor2/swiper/swiper-bundle.min.css" rel="stylesheet">
   
   
 
@@ -39,6 +46,8 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 
+    
+
   <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
@@ -46,6 +55,7 @@
     <link rel="stylesheet" href="assets/css/lightbox.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="styleGame.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -60,36 +70,57 @@
 
 
   <!-- Title -->
+   <!-- ======= Header ======= -->
+   <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
 
-  <header class="header-area header-sticky">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
-                        <img src="./assets/images/palavraChaveLogo.png" alt="PalavraChaveLogo">
-                    </a>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                        <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                        <li class="scroll-to-section"><a href="#services">Serviços</a></li>
-                        <li class="scroll-to-section"><a href="#aboutMe">Sobre</a></li>
-                        <li class="scroll-to-section"><a href="#contact">Contato</a></li>
-                        <li><a href="./materiais.html" target="_blank">Materiais</a></li>
-                         
-                    </ul>        
-                    <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
-            </div>
-        </div>
+      <h1 class="logo"><a href="index.html"><img src="iMG/palavraChaveLogo.png" alt="Meu Logo"></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#">Home</a></li>
+          <li><a class="nav-link scrollto" href="#services">Serviços</a></li>
+          <li><a class="nav-link scrollto" href="#aboutMe">Sobre</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
+          <li><a href="./materiais.html" target="_blank">Materiais</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
     </div>
-</header>
-<!-- ***** Header Area End ***** -->
+  </header>
+
+<!-- HEADER ANTIGO -->
+<!-- <header class="header-area header-sticky">
+  <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <nav class="main-nav">
+                  <a href="index.html" class="logo">
+                      <img src="./assets/images/palavraChaveLogo.png" alt="PalavraChaveLogo">
+                  </a>
+                  <ul class="nav">
+                      <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                      <li class="scroll-to-section"><a href="#services">Serviços</a></li>
+                      <li class="scroll-to-section"><a href="#aboutMe">Sobre</a></li>
+                      <li class="scroll-to-section"><a href="#contact">Contato</a></li>
+                      <li><a href="./materiais.html" target="_blank">Materiais</a></li>
+                       
+                  </ul>        
+                  <a class='menu-trigger'>
+                      <span>Menu</span>
+                  </a>
+                 
+              </nav>
+          </div>
+      </div>
+  </div>
+</header> -->
+
+  <!-- End Header -->
+  
 
 <!-- ***** Main Banner Area Start ***** -->
 <section class="section main-banner" id="top" data-section="section1">
@@ -118,7 +149,7 @@
 
  <!-- -----------------CURSOS ------------------ -->
 
- <section id="testemonials" style="background-color: white;">
+ <section id="cursos" style="background-color: white;">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -299,27 +330,27 @@
       <div class="row">
         <div class="col-lg-4">
           <h2 class="contactName" style="color: yellow">Entre em Contato</h2>
-          <hr>
+          
           
           
           <p>palavrachaveaulas@gmail.com</p>
           <p>+55 21 98460-0412</p>
-          <p>+351 911 858 758</p>
+          <p>+351 911 858 758</p><br>
           
         </div>
         <div class="col-lg-4">
           <h2 class="contactName" style="color: yellow">Meus Serviços</h2>
-          <hr>
+          
           
           <p>Acompanhamento escolar</p>
           <p>Mentoria para professores</p>
-          <p>Aulas para estrangeiros</p>
+          <p>Aulas para estrangeiros</p><br>
           
         </div>
 
         <div class="col-lg-4">
           <h2 class="contactName" style="color: yellow">Redes Sociais</h2>
-          <hr>
+          
           <div class="socialMedia">
             <a class="btn btn-md btn-light btn-lg-square rounded-circle me-2 socialButtom" href="https://wa.link/6rpa54" target="_blank"><i class="fab fa-whatsapp"></i></a>
             <a class="btn btn-md btn-light btn-lg-square rounded-circle socialButtom" href="https://www.instagram.com/palavrachave_aulas/" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -340,7 +371,7 @@
   <section id="footer">
     <div class="container-fluid">
     <p class="footText">© Copyright 2022 palavra chave. All Rights Reserved.</p>
-    Designed by <a href="https://www.linkedin.com/in/ecyo-felipe-437a16252/">Ecyo Felipe</a>
+    Designed by <a href="https://www.linkedin.com/in/ecyo-felipe-437a16252/" style="color: rgb(71, 139, 83);">Ecyo Felipe</a>
   </div>
 
   </section>
@@ -357,6 +388,12 @@
 <script src="assets/js/video.js"></script>
 <script src="assets/js/slick-slider.js"></script>
 <script src="assets/js/custom.js"></script>
+
+
+<!-- javascript file -->
+
+<script src="main.js"></script>
+
 <script>
     //according to loftblog tut
     $('.nav li:first').addClass('active');

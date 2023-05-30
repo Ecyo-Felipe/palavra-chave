@@ -9,7 +9,7 @@
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <script src="./script.js" defer></script>
+    
 
     <title>Palavra Chave Aulas</title>
 
@@ -24,12 +24,26 @@
     <!-- Font Awesome -->
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
 
+      <!-- Vendor CSS Files -->
+  <link href="vendor2/aos/aos.css" rel="stylesheet">
+  <link href="vendor2/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor2/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor2/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor2/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor2/remixicon/remixicon.css" rel="stylesheet">
+  <link href="vendor2/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- javascript file -->
+
+<script src="main.js" defer></script>
+<script src="./script.js" defer></script>
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/lightbox.css">
+    <link rel="stylesheet" href="css/style.css">
 <!--
 
 TemplateMo 569 Edu Meeting
@@ -48,17 +62,38 @@ https://templatemo.com/tm-569-edu-meeting
 
 
   <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
+
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html"><img src="iMG/palavraChaveLogo.png" alt="Meu Logo"></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="./index.html">Home</a></li>
+          <li><a href="./login.html" target="_blank">Login</a></li>
+          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header>
+
+  <!-- HEADER ANTIGA -->
+
+  <!-- <header class="header-area header-sticky">
       <div class="container">
           <div class="row">
               <div class="col-12">
                   <nav class="main-nav">
-                      <!-- ***** Logo Start ***** -->
+                      
                       <a href="./index.html" class="logo">
                           <img src="./assets/images/palavraChaveLogo.png" alt="PalavraChaveLogo">
                       </a>
-                      <!-- ***** Logo End ***** -->
-                      <!-- ***** Menu Start ***** -->
+                      
                       <ul class="nav">
                         <li><a href="./index.html" class="active">Home</a></li>
                         <li><a href="./login.html" target="_blank">Login</a></li> 
@@ -66,12 +101,11 @@ https://templatemo.com/tm-569-edu-meeting
                       <a class='menu-trigger'>
                           <span>Menu</span>
                       </a>
-                      <!-- ***** Menu End ***** -->
                   </nav>
               </div>
           </div>
       </div>
-  </header>
+  </header> -->
   <!-- ***** Header Area End ***** -->
 
   <!-- ***** Main Banner Area Start ***** -->
@@ -162,7 +196,7 @@ https://templatemo.com/tm-569-edu-meeting
           </div>
         </div>
         <div class="colunaGeral">
-          <h2 style="color: white; font-weight: 700;">KIT 1</h2><br>
+          <h2 class="kit">KIT 1</h2><br>
         <div class="coluna1">
           
          <div class="col-lg-6">
@@ -281,7 +315,7 @@ https://templatemo.com/tm-569-edu-meeting
         </div>
       </div>
       <br>
-      <h2 style="color: white; font-weight: 700;">KIT 2</h2><br>
+      <h2 class="kit">KIT 2</h2><br>
       <div class="coluna2">
         <div class="col-lg-6">
           <div class="categories">
