@@ -160,6 +160,11 @@ h6 {
   padding: 0;
 }
 
+.myNav ul{
+  display: flex;
+  gap: 20px;
+}
+
 .navbar ul {
   margin: 0;
   padding: 0;
