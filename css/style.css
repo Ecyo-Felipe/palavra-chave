@@ -326,10 +326,10 @@ h6 {
   position: absolute;
   top: 55px;
   right: 15px;
-  bottom: 70%;
+  bottom: 58%;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #ffffffcc;
   overflow-y: auto;
   transition: 0.3s;
 }

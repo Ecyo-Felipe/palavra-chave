@@ -177,6 +177,7 @@ body {
 
 .main-button-red a:hover {
   opacity: 0.9;
+  color: rgb(145, 145, 145);
 }
 
 .main-button-yellow a {
@@ -1986,3 +1987,5 @@ responsive
 
   text-shadow: 0px 0px 8px #e2d774, 0px 0px 12px #ebdb4a;
 }
+
+

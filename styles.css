@@ -255,6 +255,17 @@ p {
     }
   }
 
+  @media(max-width: 465px){
+    #aboutMe img {
+      width: 200px;
+      height: 200px;
+    }
+
+    #contact .firstP {
+      font-size: 18px;
+    }
+  }
+
 
 @media(max-width: 1114px){
   #aboutMe{
@@ -452,4 +463,5 @@ p {
 .whatsapp-button:hover {
   background-color: darkgreen;
 }
+
 
