@@ -49,6 +49,8 @@ function fazerLogin() {
   } else if (senha === 'kit2pc2023') {
     // Redirecionar para outra página
     window.location.href = './jogoskit2.html';
+  } else {
+    alert('Senha Incorreta')
   }
 }
 
