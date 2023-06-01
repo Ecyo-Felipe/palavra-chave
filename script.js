@@ -89,7 +89,3 @@ buttonEntrar.addEventListener('click', fazerLogin);
 
 
 
-
-
-
-
