@@ -45,10 +45,10 @@ function fazerLogin() {
     // Limpar a senha do usuário do localStorage (caso exista)
     localStorage.removeItem('senhaUsuario');
     // Redirecionar para outra página
-    window.location.href = 'jogos';
+    window.location.href = './jogos.html';
   } else if (senha === 'kit2pc2023') {
     // Redirecionar para outra página
-    window.location.href = 'jogoskit2';
+    window.location.href = './jogoskit2.html';
   }
 }
 
