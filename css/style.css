@@ -1897,3 +1897,8 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+h5 a:hover {
+  color: #ffc107; /* Cor de neon (verde brilhante) */
+  text-shadow: 0 0 5px #ffc107, 0 0 10px #ffc107, 0 0 15px #ffc107; /* Efeito de sombra de neon */
+}
